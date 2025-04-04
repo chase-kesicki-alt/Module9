@@ -84,7 +84,8 @@ base_template_start = '''
 </head>
 <body>
     <header>
-        <h1>Recipe Cookbook</h1>
+        <h1>My Favorite Recipes</h1>
+        <p>A collection of delicious recipes to try at home</p>
         <nav>
             <a href="{{ url_for('index') }}">Home</a>
             <a href="{{ url_for('add_recipe') }}">Add Recipe</a>
